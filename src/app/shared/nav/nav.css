@@ -1,0 +1,9 @@
+.nav-bar{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    a{
+        gap: 10px
+    }
+}
