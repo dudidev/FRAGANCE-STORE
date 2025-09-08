@@ -1,14 +1,19 @@
 .producto-card {
   border: 1px solid #ccc;
+  background-color: white;
+  color: black;
   border-radius: 8px;
   padding: 1rem;
   text-align: center;
+  width: 100%;
   max-width: 200px;
 }
 
 .img-prod {
   width: 100%;
-  height: auto;
+  max-width: 200px;
+  height: 250px;
+  object-fit: cover;
   border-radius: 6px;
   margin-bottom: 0.5rem;
 }
