@@ -1,0 +1,15 @@
+.lista-perfumes{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.men-section{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
