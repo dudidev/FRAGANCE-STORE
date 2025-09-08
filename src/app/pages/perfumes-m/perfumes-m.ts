@@ -11,19 +11,19 @@ import { ProductoCard } from '../../components/producto-card/producto-card';
 export class PerfumesM {
   perfumesM = [
     {
-      nombre: 'Cloud',
+      nombre: 'Beijo De Humor',
       precio: 350000,
-      imagen: '../'
+      imagen: 'assets/perfumesM/BEIJO_DE_HUMOR.jpg'
     },
     {
-      nombre: 'Loquito por ti',
+      nombre: 'Cloud',
       precio: 300000,
-      imagen: '../'
+      imagen: 'assets/perfumesM/CLOUD.png'
     },
     {
       nombre: 'Fab',
-      precio: 280000,
-      imagen: '../'
+      precio: 15000,
+      imagen: 'assets/perfumesM/FAB.png'
     }
   ]
 }
