@@ -1,14 +1,47 @@
-.lista-perfumes{
+.lista-perfumes {
     display: flex;
     justify-content: center;
     gap: 20px;
+    overflow-x: auto;
+    padding: 12px;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-.women-section{
-    background-color: pink;
-    padding: 20px;
+
+.women-section {
+    background-color: #f3e5fa;
+    padding: 24px 0;
+    text-align: center;
+}
+
+app-producto-card {
+    background-color: #d580ff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.women-section h2 {
+    color: #d580ff;
+    margin-bottom: 12px;
+}
+
+.ver-todos-btn {
+    background: #d580ff; 
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: background 0.2s;
+}
+
+.ver-todos-btn:hover {
+    background: #6c5ce7; /* violeta moderno */
+    color: #fff;
 }

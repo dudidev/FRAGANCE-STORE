@@ -13,7 +13,7 @@ export class PerfumesM {
     {
       nombre: 'Beijo De Humor',
       precio: 350000,
-      imagen: 'assets/perfumesM/BEIJO_DE_HUMOR.jpg'
+      imagen: 'assets/perfumesM/BEIJO_DE_HUMOR.png'
     },
     {
       nombre: 'Cloud',
@@ -21,9 +21,14 @@ export class PerfumesM {
       imagen: 'assets/perfumesM/CLOUD.png'
     },
     {
-      nombre: 'Fab',
-      precio: 15000,
-      imagen: 'assets/perfumesM/FAB.png'
+      nombre: 'Tom Ford Santal',
+      precio: 250000,
+      imagen: 'assets/perfumesM/TOM_fORD.png'
+    },
+    {
+      nombre: 'Irressistible Givenchy',
+      precio: 1500000,
+      imagen: 'assets/perfumesM/IRRESISTIBLE.png'
     }
   ]
 }
