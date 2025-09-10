@@ -1,11 +1,12 @@
 <div class="men-section">
-  <h2>Perfumes para Hombres</h2>
-  <div class="lista-perfumes">
-    <app-producto-card
-      *ngFor="let perfume of perfumesH"
-      [nombre]="perfume.nombre"
-      [precio]="perfume.precio"
-      [imagen]="perfume.imagen">
-    </app-producto-card>
-  </div>
+  <h2>Perfumes para ellos</h2>
+    <div class="lista-perfumes" >
+      <app-producto-card
+        *ngFor="let perfume of perfumesH"
+        [nombre]="perfume.nombre"
+        [precio]="perfume.precio"
+        [imagen]="perfume.imagen">
+      </app-producto-card>
+    </div>
+  <button class="ver-todos-btn">Ver el catálogo</button>
 </div>

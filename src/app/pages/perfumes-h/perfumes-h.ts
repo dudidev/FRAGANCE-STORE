@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 import { ProductoCard } from '../../components/producto-card/producto-card';
 
 @Component({
@@ -13,7 +14,7 @@ export class PerfumesH {
     {
       nombre: 'Bleu de Chanel',
       precio: 350000,
-      imagen: 'assets/perfumesH/BLEU_CHANNEL.jpg'
+      imagen: 'assets/perfumesH/BLEU_CHANNEL.png'
     },
     {
       nombre: 'Dior Sauvage',
@@ -23,7 +24,12 @@ export class PerfumesH {
     {
       nombre: 'Acqua di Giò',
       precio: 280000,
-      imagen: 'assets/perfumesH/ACQUA_DI_GIO.jpg'
+      imagen: 'assets/perfumesH/ACQUA_DI_GIO.png'
+    },
+    {
+      nombre: 'Versace Eros',
+      precio: 330000,
+      imagen: 'assets/perfumesH/EROS.png'
     }
-  ]
+  ];
 }

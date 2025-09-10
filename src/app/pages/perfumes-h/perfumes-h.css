@@ -1,15 +1,41 @@
-.lista-perfumes{
+.lista-perfumes {
     display: flex;
     justify-content: center;
     gap: 20px;
+    overflow-x: auto;
+    padding: 12px;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-.men-section{
+.men-section {
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.men-section h2 {
+    color: white;
+    margin-bottom: 12px;
+}   
+
+.ver-todos-btn {
+    background: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: background 0.2s;
+}
+
+.ver-todos-btn:hover {
+    color: white;
+    background: linear-gradient(90deg, #dddd 0%, #0000 100%);
 }
