@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductoCard } from '../../components/producto-card/producto-card';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-perfumes-m',
@@ -30,5 +31,11 @@ export class PerfumesM {
       precio: 1500000,
       imagen: 'assets/perfumesM/IRRESISTIBLE.png'
     }
-  ]
+  ];
+
+  constructor(private router: Router) {}
+
+  irAVistaListaProductos() {
+    this.router.navigate(['/lista-productos']);
+  }
 }
