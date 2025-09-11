@@ -1,1 +1,13 @@
-<p>Funciona lista productos</p>
+<app-nav></app-nav>
+<div class="lista-section">
+    <h2>Los perfumes</h2>
+    <h3>¡Todos aquí!</h3>
+    <div class="lista-perfumes">
+        <app-producto-card 
+            *ngFor="let perfume of perfumesAll" 
+            [nombre]="perfume.nombre"
+            [precio]="perfume.precio"
+            [imagen]="perfume.imagen">
+        </app-producto-card>
+    </div>
+</div>  
