@@ -28,6 +28,15 @@
     flex-wrap: wrap;
     gap: 24px;
     justify-content: space-between;
+
+    h3 {
+        color: #5a3da6;
+        margin-bottom: 8px;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    ;
 }
 
 .about-content>div {
@@ -37,12 +46,6 @@
     padding: 18px;
     margin-bottom: 16px;
     min-width: 220px;
-}
-
-.about-content h3 {
-    color: #0984e3;
-    margin-bottom: 8px;
-    font-size: 1.1rem;
 }
 
 .about-content p,
