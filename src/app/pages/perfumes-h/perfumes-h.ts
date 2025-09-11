@@ -32,4 +32,10 @@ export class PerfumesH {
       imagen: 'assets/perfumesH/EROS.png'
     }
   ];
+
+  constructor(private router: Router) {}
+
+  irAVistaListaProductos() {
+    this.router.navigate(['/lista-productos']);
+  }
 }
