@@ -3,11 +3,14 @@
     <h2>Los perfumes</h2>
     <h3>¡Todos aquí!</h3>
     <div class="lista-perfumes">
+        @for (perfume of perfumesAll; track perfume) {
+        @if (perfume.precio > 0) {
         <app-producto-card 
-            *ngFor="let perfume of perfumesAll" 
             [nombre]="perfume.nombre"
-            [precio]="perfume.precio"
+            [precio]="perfume.precio" 
             [imagen]="perfume.imagen">
         </app-producto-card>
+        }
+    }
     </div>
-</div>  
+</div>
