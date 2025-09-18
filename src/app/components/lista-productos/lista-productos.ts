@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Nav } from '../../shared/nav/nav';
+import { Footer } from '../../shared/footer/footer';
 import { ProductoCard } from '../producto-card/producto-card';
 
 @Component({
   selector: 'app-lista-productos',
-  imports: [CommonModule, Nav, ProductoCard],
+  imports: [CommonModule, Nav, ProductoCard, Footer],
   templateUrl: './lista-productos.html',
   styleUrl: './lista-productos.css'
 })
