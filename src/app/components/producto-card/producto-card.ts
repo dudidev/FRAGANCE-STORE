@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './producto-card.css'
 })
 export class ProductoCard {
-  @Input() nombre: string = '';
-  @Input() imagen: string = '';
-  @Input() precio: number = 0;
+  @Input() nombre!: string;
+  @Input() imagen!: string;
+  @Input() precio!: number;
 }
