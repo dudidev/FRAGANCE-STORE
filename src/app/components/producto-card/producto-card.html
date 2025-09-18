@@ -1,17 +1,12 @@
-<div class="producto-card" 
-    [ngClass]="{ 'caro': precio > 350000, 'economico': precio <= 350000 }"
-    [ngStyle]="{ 
-        'border': precio > 350000 ? '3px solid red' : '1px solid gray',
-        'padding': '10px'
-    }">
-    
+<div class="producto-card">
     <img [src]="imagen" alt="{{nombre}}" class="img-prod">
     <h3>{{nombre}}</h3>
     <p>{{precio | currency: 'COP'}}</p>
-
+    @if (mostrarEtiqueta){
     <div [ngSwitch]="true">
-        <span *ngSwitchCase="precio > 380000">Perfume Premium</span>
-        <span *ngSwitchCase="precio > 320000">Perfume Alto</span>
+        <span *ngSwitchCase="precio > 500000" [ngStyle]="{'color': 'purple'}">Perfume Premium</span>
+        <span *ngSwitchCase="precio <= 500000" [ngStyle]="{'color': 'green'}">Perfume Alto</span>
         <span *ngSwitchDefault>Perfume Estándar</span>
     </div>
+    }
 </div>

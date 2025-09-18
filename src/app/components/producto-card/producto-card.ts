@@ -11,4 +11,6 @@ export class ProductoCard {
   @Input() nombre!: string;
   @Input() imagen!: string;
   @Input() precio!: number;
+
+  @Input() mostrarEtiqueta: boolean = false;
 }
