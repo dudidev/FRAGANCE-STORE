@@ -5,13 +5,15 @@
     <div class="lista-perfumes">
         @for (perfume of perfumesAll; track perfume) {
         @if (perfume.precio > 0) {
-        <app-producto-card 
+        <app-producto-card
             [nombre]="perfume.nombre"
             [precio]="perfume.precio" 
-            [imagen]="perfume.imagen">
+            [imagen]="perfume.imagen"
+            [mostrarEtiqueta]="true">
         </app-producto-card>
         }
     }
     </div>
 </div>
+<button class="btn-subir" (click)="scrollToTop()">▲</button>
 <app-footer></app-footer>

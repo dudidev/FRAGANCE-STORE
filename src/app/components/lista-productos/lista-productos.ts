@@ -87,6 +87,15 @@ export class ListaProductos {
     nombre: 'Si Giorgio Armani',
     precio: 345000,
     imagen: 'assets/perfumesM/SI_ARMANI.png'
+  },
+  {
+    nombre: 'Irressistible Givenchy',
+    precio: 1500000,
+    imagen: 'assets/perfumesM/IRRESISTIBLE.png'
   }
   ];
+
+  scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 };
