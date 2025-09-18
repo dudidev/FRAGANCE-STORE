@@ -15,12 +15,12 @@ export class ListaProductos {
     {
     nombre: 'Bleu de Chanel',
     precio: 350000,
-    imagen: 'assets/perfumesH/BLEU_CHANNEL.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/BLEU_CHANNEL_ks7zbm.png'
   },
   {
     nombre: 'Dior Sauvage',
     precio: 300000,
-    imagen: 'assets/perfumesH/DIOR_SAUVAGE.jpg'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/DIOR_SAUVAGE_gxyks8.png'
   },
   {
     nombre: 'Acqua di Giò',
