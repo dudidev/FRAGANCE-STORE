@@ -14,22 +14,22 @@ export class PerfumesM {
     {
       nombre: 'Beijo De Humor',
       precio: 350000,
-      imagen: 'assets/perfumesM/BEIJO_DE_HUMOR.png'
+      imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162274/BEIJO_DE_HUMOR_zgpdu0.png'
     },
     {
       nombre: 'Cloud',
       precio: 300000,
-      imagen: 'assets/perfumesM/CLOUD.png'
+      imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162275/CLOUD_sawlmx.png'
     },
     {
       nombre: 'Tom Ford Santal',
       precio: 250000,
-      imagen: 'assets/perfumesM/TOM_fORD.png'
+      imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162280/TOM_fORD_yzdbre.png'
     },
     {
       nombre: 'Irressistible Givenchy',
       precio: 1500000,
-      imagen: 'assets/perfumesM/IRRESISTIBLE.png'
+      imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162279/IRRESISTIBLE_la1tdh.png'
     }
   ];
 

@@ -25,73 +25,73 @@ export class ListaProductos {
   {
     nombre: 'Acqua di Giò',
     precio: 280000,
-    imagen: 'assets/perfumesH/ACQUA_DI_GIO.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/ACQUA_DI_GIO_kagpkc.png'
   },
   {
     nombre: 'Versace Eros',
     precio: 330000,
-    imagen: 'assets/perfumesH/EROS.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/EROS_kklo3x.png'
   },
   {
     nombre: 'Paco Rabanne Invictus',
     precio: 320000,
-    imagen: 'assets/perfumesH/INVICTUS.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/INVICTUS_oqgqbg.png'
   },
   {
     nombre: 'Hugo Boss Bottled',
     precio: 310000,
-    imagen: 'assets/perfumesH/BOSS_BOTTLED.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/BOSS_BOTTLED_tsgse9.png'
   },
   {
     nombre: 'Armani Code',
     precio: 340000,
-    imagen: 'assets/perfumesH/ARMANI_CODE.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/ARMANI_CODE_u1zta0.png'
   },
   {
     nombre: 'Azzaro Wanted',
     precio: 295000,
-    imagen: 'assets/perfumesH/AZZARO_WANTED.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/AZZARO_WANTED_o1sitm.png'
   },
   {
     nombre: 'Mont Blanc Legend',
     precio: 270000,
-    imagen: 'assets/perfumesH/MONTBLANC_LEGEND.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/MONTBLANC_LEGEND_xe1koc.png'
   },
   // Femeninos
   {
     nombre: 'La Vie Est Belle',
     precio: 360000,
-    imagen: 'assets/perfumesM/LAVIEESTBELLE.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162279/LAVIEESTBELLE_dmukdo.png'
   },
   {
     nombre: 'Good Girl',
     precio: 370000,
-    imagen: 'assets/perfumesM/GOODGIRL.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162275/GOODGIRL_augagm.png'
   },
   {
     nombre: 'J’adore Dior',
     precio: 355000,
-    imagen: 'assets/perfumesM/JADORE.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162279/JADORE_t8y6dn.png'
   },
   {
     nombre: 'Flowerbomb',
     precio: 340000,
-    imagen: 'assets/perfumesM/FLOWERBOMB.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162275/FLOWERBOMB_trknqw.png'
   },
   {
     nombre: 'Chanel No. 5',
     precio: 400000,
-    imagen: 'assets/perfumesM/CHANEL5.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162274/CHANEL5_yitorw.png'
   },
   {
     nombre: 'Si Giorgio Armani',
     precio: 345000,
-    imagen: 'assets/perfumesM/SI_ARMANI.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162279/SI_ARMANI_zlqdnm.png'
   },
   {
     nombre: 'Irressistible Givenchy',
     precio: 1500000,
-    imagen: 'assets/perfumesM/IRRESISTIBLE.png'
+    imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162279/IRRESISTIBLE_la1tdh.png'
   }
   ];
 

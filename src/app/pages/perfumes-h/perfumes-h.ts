@@ -14,22 +14,22 @@ export class PerfumesH {
     {
       nombre: 'Bleu de Chanel',
       precio: 350000,
-      imagen: 'assets/perfumesH/BLEU_CHANNEL.png'
+      imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/BLEU_CHANNEL_ks7zbm.png'
     },
     {
       nombre: 'Dior Sauvage',
       precio: 300000,
-      imagen: 'assets/perfumesH/DIOR_SAUVAGE.jpg'
+      imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/DIOR_SAUVAGE_gxyks8.png'
     },
     {
       nombre: 'Acqua di Giò',
       precio: 280000,
-      imagen: 'assets/perfumesH/ACQUA_DI_GIO.png'
+      imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/ACQUA_DI_GIO_kagpkc.png'
     },
     {
       nombre: 'Versace Eros',
       precio: 330000,
-      imagen: 'assets/perfumesH/EROS.png'
+      imagen: 'https://res.cloudinary.com/ds7wvpkt4/image/upload/v1758162250/EROS_kklo3x.png'
     }
   ];
 
