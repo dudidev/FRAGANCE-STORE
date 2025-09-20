@@ -1,4 +1,4 @@
-<div class="producto-card">
+<div class="producto-card" [ngClass]="categoria">
     <img [src]="imagen" alt="{{nombre}}" class="img-prod">
     <h3>{{nombre}}</h3>
     <p>{{precio | currency: 'COP'}}</p>
