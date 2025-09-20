@@ -13,4 +13,5 @@ export class ProductoCard {
   @Input() precio!: number;
 
   @Input() mostrarEtiqueta: boolean = false;
+  @Input() categoria: 'hombre' | 'mujer' | 'sin-categoria' = 'sin-categoria';
 }
