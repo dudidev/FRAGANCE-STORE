@@ -1,6 +1,5 @@
 .producto-card {
-  box-shadow: 0 1px 5px #fff;
-  border-radius: 8px;
+  border-radius: var(--radius-medium);
   padding: 1rem;
   text-align: center;
   width: 100%;
@@ -16,10 +15,30 @@
   margin-bottom: 0.5rem;
 }
 
+.hombre{
+  box-shadow: 0px 1px 5px 0px var(--color-text-light);
+  h3, p{
+    color: var(--color-text-light);
+  };
+}
+
+.mujer{
+  box-shadow: 0px 1px 5px 0px var(--color-primary);
+  h3, p{
+    color: var(--color-primary);
+  };
+}
+
+.sin-categoria{
+  h3, p{
+    color: var(--color-text);
+  };
+}
+
 .caro {
-  background-color: #ffe5e5;
+  background-color: var(--color-secondary);
 }
 
 .standard {
-  background-color: #e5ffe5;
+  background-color: var(--color-acent);
 }
