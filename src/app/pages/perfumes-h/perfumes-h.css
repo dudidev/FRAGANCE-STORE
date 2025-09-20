@@ -6,24 +6,20 @@
     padding: 12px;
 }
 
-h2 {
-    text-align: center;
+
+h2{
+    color: var(--color-text-light);
 }
+
 
 .men-section {
     background-color: black;
-    color: white;
     padding: 24px 0;
     text-align: center;
-}
-
-.men-section h2 {
-    color: white;
-    margin-bottom: 12px;
-}   
+} 
 
 .ver-todos-btn {
-    background: white;
+    background: var(--color-surface);
     color: rgb(0, 0, 0);
     border: none;
     border-radius: 8px;
