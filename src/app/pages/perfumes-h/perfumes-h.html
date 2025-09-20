@@ -5,7 +5,8 @@
       *ngFor="let perfume of perfumesH"
       [nombre]="perfume.nombre"
       [precio]="perfume.precio"
-      [imagen]="perfume.imagen">
+      [imagen]="perfume.imagen"
+      categoria="hombre">
     </app-producto-card>
   </div>
   <button class="ver-todos-btn" (click)="irAVistaListaProductos()">Ver el catálogo</button>
